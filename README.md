@@ -4,19 +4,19 @@
 
 # 遇到的问题
 
-1. 每次更换电脑都要重新安装开发环境配置和各类常用软件
+1. 每次更换电脑都要重新安装开发环境和初始化各类常用软件的配置
 2. 最令人头疼的是一些软件的插件及个性化配置的迁移
 
 例如我要做:
 
 - 安装 Homebrew
-- 再用 Homebrew 安装常用软件. vscode，iTerm，nvm，Chrome...
+- 再用 Homebrew 安装常用软件：vscode，iTerm，nvm，Chrome……
 - 增加配置文件，配置环境变量，如 nvm
 - 安装 vscode 的常用插件
 - 配置插件
 - 安装 iTerm 插件
 - 配置插件
-- ...
+- ......
 
 整个流程繁琐耗时，怎么解?
 
@@ -144,24 +144,13 @@ mackup backup
 请确保电脑上安装了如下软件:
 
 - Git
-
-```bash
-
-git -v
-
-```
-
 - Homebrew
-
-```bash
-
-brew -v
-
-```
-
 - Mackup
 
 ```bash
+git -v
+
+brew -v
 
 mackup --version
 
@@ -172,7 +161,7 @@ mackup --version
 ```bash
 git clone https://github.com/{yourname}/dotfiles.git
 
-# 增加权限
+# 若 .sh 文件执行无权限则需要增加权限
 chmod u+x ~/dotfiles/**/*.sh
 ```
 
@@ -194,11 +183,17 @@ chmod u+x ~/dotfiles/**/*.sh
 # 生成 mackup 配置文件
 ~/dotfiles/bootstrap.sh
 
-# 还原备份的文件
+# 另外还需修改 .mackup.cfg 中 `path = /Users/{yourname}/dotfiles` 的 `{yourname}` 替换为你的用户名，以保证路径正确
+
+# 最后还原备份的文件
 mackup restore
 ```
 
-# 参考:
+# 我的配置模板
+
+https://github.com/lorcannn/dotfiles
+
+# 参考资料:
 
 - https://github.com/cpojer/dotfiles
 - https://dotfiles.github.io/

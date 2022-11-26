@@ -68,5 +68,10 @@
       "colors": "css"
     }
   ],
-  "cSpell.userWords": ["dotfiles", "lorcannn", "mackup"]
+  "cSpell.userWords": [
+    "dotfiles",
+    "lorcannn",
+    "mackup",
+    "yourname"
+  ]
 }
