@@ -104,7 +104,7 @@ mkdir dotfiles
 ...
 ```
 
-2.备份 Homebrew 软件
+2. 备份 Homebrew 软件
 
 ```bash
 # 执行brew bundle dump备份命令
