@@ -1,0 +1,21 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+# Keep your Mac's application settings in sync
+brew "mackup"
+# Manage multiple Node.js versions
+brew "nvm"
+# 📦🚀 Fast, disk space efficient package manager
+brew "pnpm"
+# Keyboard, mouse and touchpad motion gestures
+cask "betterandbetter"
+# Web browser
+cask "firefox"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Input method supporting full and double spelling
+cask "sogouinput"
+# Plug-in productivity tool set
+cask "utools"
+# Open-source code editor
+cask "visual-studio-code"

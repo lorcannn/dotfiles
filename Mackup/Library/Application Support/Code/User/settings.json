@@ -1,0 +1,72 @@
+{
+  "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.lineHeight": 1.3,
+  "editor.fontSize": 13,
+  "workbench.colorTheme": "Night Owl",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "rm-js-comment.replacer": {
+    "__WEBPACK": "",
+    "__webpack_handle_async_dependencies__": "async_dependencies",
+    "IMPORTED_MODULE_": "",
+    "__WEBPACK_DEFAULT_EXPORT__": "DEFAULT_EXPORT",
+    "__webpack_exports__": "exports",
+    "__unused_webpack_module": "module",
+    "__WEBPACK_EXTERNAL_MODULE_": "EXTERNAL_MODULE_",
+    "__WEBPACK_DYNAMIC_EXPORT__": "DYNAMIC_EXPORT",
+    "__system_context__": "system_context",
+    "__webpack_require__": "require",
+    "__webpack_module_cache__": "cache",
+    "__webpack_modules__": "modules",
+    "__WEBPACK_IMPORTED_MODULE_": "_IMPORTED_MODULE_",
+    "/*#__PURE__*/": "",
+    "___EXPOSE_LOADER_IMPORT___": "EXPOSE_IMPORT",
+    "___EXPOSE_LOADER_GET_GLOBAL_THIS___": "GET_GLOBAL_THIS",
+    "___EXPOSE_LOADER_GLOBAL_THIS___": "GLOBAL_THIS"
+  },
+  "editor.tabSize": 2,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "colorInfo.languages": [
+    {
+      "selector": "html",
+      "colors": "css"
+    },
+    {
+      "selector": "javascript",
+      "colors": "css"
+    },
+    {
+      "selector": "typescript",
+      "colors": "css"
+    },
+    {
+      "selector": "css",
+      "colors": "css"
+    },
+    {
+      "selector": "sass",
+      "colors": "css"
+    },
+    {
+      "selector": "scss",
+      "colors": "css"
+    },
+    {
+      "selector": "less",
+      "colors": "css"
+    }
+  ],
+  "cSpell.userWords": ["dotfiles", "lorcannn", "mackup"]
+}
